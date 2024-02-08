@@ -1,0 +1,109 @@
+html, body{
+    scroll-behavior: smooth;
+}
+nav{
+    text-align: right;
+    border: solid;
+    background-color: var(--background);
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+    padding: 5px;
+}
+section{
+    width: 100%;
+}
+.button{
+    color:rgb(1, 3, 34);
+    font-size:15px ;
+    font-family: var(--secondary-font);
+    text-decoration: none;
+    border: 2.25px ;
+    border-style:inset;
+    border-radius: 2.5px;
+}
+.button:hover{
+    color:#aecaf0;
+    font-size: 20px;
+    transform: scale(1.3);
+}
+body{
+    background-color: var(--body);
+    font-size: 90%;
+    width:100%;
+    max-width: device-width;
+ 
+}
+.capture{
+    background-color: var(--background);
+    width: 100%;
+    padding: 2px;
+    max-height: 1024px;
+    margin-top: 0.667%;
+    display: block;
+}
+.background{
+    max-width: 1360px;
+    height: auto;
+    width: 85.77%;
+    position: absolute;
+    left: 9.5%;
+    top: 17.94%;
+}
+h4{
+    text-align: center;
+    width: fit-content;
+    color: #063913;
+    padding: 10px;
+    border: solid;
+    font-size: 32px;
+    border-radius: 2.3px;
+    position: relative;
+}
+.universal{
+    font-size: 50px;
+    color:var(--comp);
+    font-family: var(--font-family);
+    position: relative;
+    text-align: center;
+    top: 2px;
+}
+p{
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: var(--secondary-font);
+    text-align: center;
+}
+.reg_form {
+    text-decoration: none;
+}
+
+.Account{
+    display:block;
+    width: device-width;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10%;
+    box-shadow: 3 3 10px rgba(0,0,0,.5);
+}
+
+
+
+footer *{
+    background-color: var(--background);
+    color: var(--pop);
+    text-align: center;
+    text-decoration: none;
+  }
+  footer ul{
+    list-style: disc;
+  }
+  footer li{
+    display: block;
+    padding: 5px;
+    font-size: 25px;
+    font-family: var(--secondary-font);
+  }
